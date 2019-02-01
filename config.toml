@@ -1,0 +1,51 @@
+baseURL = "https://graph-3.firebaseapp.com"
+
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+title = "3graph.js"
+theme = "hugo-goa"
+
+[params]
+author = "3graph.js"
+intro = "Social graphs for the decentralized web"
+description = """
+<p>
+Built with
+<a href="https://3box.io" target="_blank">3box</a>,
+<a href="https://ipfs.io" target="_blank">ipfs</a>,
+<a href="https://github.com/orbitdb" target="_blank">orbit-db</a> and
+<a href="https://tweetnacl.js.org/" target="_blank">tweet-nacl</a>.</p>
+<p>
+<br />
+Visit <a href="https://github.com/3graph/3graph-js">github</a> for more info!
+</p>
+"""
+authorimage = "graph03.png"
+dateformat = "Jan 2, 2006"
+
+[params.social]
+github = "3graph"
+twitter = "3graph"
+email = "monkybrain@3graph.org"
+
+[params.extra]
+copyright = """3graph is run as a non-profit Decentralized Autonmous Organization (DAO) powered by Aragon."""
+poweredby = false
+
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
