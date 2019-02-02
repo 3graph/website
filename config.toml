@@ -31,11 +31,11 @@ dateformat = "Jan 2, 2006"
 
 [params.social]
 github = "3graph"
-twitter = "3graph"
+twitter = "monkybrain_"
 email = "monkybrain@3graph.org"
 
 [params.extra]
-copyright = """3graph is run as a non-profit Decentralized Autonmous Organization (DAO) powered by Aragon."""
+copyright = """3graph is run as a non-profit Decentralized Autonomous Organization (DAO) powered by Aragon."""
 poweredby = false
 
 [[menu.main]]
